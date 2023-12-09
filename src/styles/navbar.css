@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e74c3c;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #dbca34;
+}
+
+/* Media Query para hacer el menú responsive */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #e74c3c;
+    z-index: 1;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px;
+  }
+
+  .menu-icon.open .bar1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .menu-icon.open .bar2 {
+    opacity: 0;
+  }
+
+  .menu-icon.open .bar3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+/* Ajustes para menú y logo en pantallas pequeñas en Navbar.css */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px; /* Tamaño del logo */
+  height: auto;
+}
+.logo img:hover{
+  cursor: pointer;
+  animation: vibrate 0.3s ease infinite;
+}
+@keyframes vibrate {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+}
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 20px; /* Tamaño de las barras del icono */
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Media Query para hacer el icono más pequeño en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .logo {
+    order: -1;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #e74c3c;
+    z-index: 1;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 15px;
+  }
+}

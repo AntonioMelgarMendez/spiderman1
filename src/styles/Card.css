@@ -1,0 +1,49 @@
+/* Card.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    max-width: 200px;
+    width: 100%;
+    background: #151515; /* Color base */
+    transition: background 0.3s; /* Transición para el color de fondo */
+  }
+  
+  .card:hover {
+    cursor: pointer;
+    background: #e62429; /* Nuevo color al pasar el ratón sobre la tarjeta */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    transition: transform 0.3s; /* Transición para el efecto de zoom */
+  }
+  
+  .card:hover .card-image {
+    transform: scale(1.1); /* Hace un poco de zoom al pasar el ratón sobre la tarjeta */
+  }
+  
+  .card-line {
+    height: 10px;
+    background-color: #e62429;
+  }
+  
+  .card-content {
+    padding: 10px;
+    color: #bbb;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-weight: bolder;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  

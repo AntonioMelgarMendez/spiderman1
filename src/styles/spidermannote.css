@@ -1,0 +1,47 @@
+/* styles.css */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.image {
+    max-width: 60%;
+    height: auto; /* Hace que la imagen sea responsive manteniendo la proporción */
+    margin-right: 20px;
+    flex-shrink: 0; /* Evita que la imagen se encoja más allá de su tamaño original */
+}
+
+.content {
+    flex: 1;
+    text-align: left; /* Alinea el contenido a la izquierda */
+}
+
+.title {
+    font-size: 55px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.paragraph {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.button {
+    padding: 10px 20px;
+
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #e62429;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #9f161b;
+}
+
