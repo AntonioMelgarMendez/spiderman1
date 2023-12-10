@@ -1,6 +1,6 @@
 /*value*/
 *{
-  font-family:  Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;;
+  font-family: 400 16px/1.3 Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
 }
 .App {
   text-align: center;
@@ -39,4 +39,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+.titleweb {
+  color: #151515;
+  text-align: left;
+  padding-left: 5vw; /* Utilizando vw para el padding izquierdo */
+  font-size: 4vw; /* Utilizando vw para el tamaño del texto */
+}
+
+/* Media query para ajustar el tamaño del texto en pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+  .titleweb {
+    font-size: 18px; /* Tamaño de fuente fijo para pantallas pequeñas */
+  }
+}
+.button-container {
+  display: flex;
+  justify-content:flex-end;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: transparent;
+  color: #151515;
+  border: none;
+  padding: 10px 20px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font: 400 14px/1.2 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button.selected {
+background-color:#e62429;
+color: white;
+border-radius: 20px;
+
+}
+.titulohead{
+
+  font-size: 50px;
+  font-family:Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+  margin-bottom: 0%;
+  text-align: center;
+  margin: auto;
+  color:#151515;
+  padding-top: 10vw;
+
 }

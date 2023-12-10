@@ -1,0 +1,16 @@
+/* Carousel.css */
+.carousel-container {
+    width: 90%; /* Ajusta el ancho según tus necesidades */
+    margin: auto; /* Centra el carrusel */
+  }
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #e62429;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    color: #fff;
+  }
+  

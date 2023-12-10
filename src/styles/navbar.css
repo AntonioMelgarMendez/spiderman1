@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  font-family: Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
   background-color: #e74c3c;
   color: white;
 }
@@ -50,7 +51,7 @@
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 70px;
     left: 0;
     width: 100%;
     background-color: #e74c3c;
