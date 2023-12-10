@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spiderman1/static/css/main.7081c1b5.css",
+    "main.js": "/spiderman1/static/js/main.7c56d731.js",
+    "static/js/787.e0183a5c.chunk.js": "/spiderman1/static/js/787.e0183a5c.chunk.js",
+    "static/media/spidermanimg.png": "/spiderman1/static/media/spidermanimg.9495f02d8d488333df11.png",
+    "static/media/avengers.jpg": "/spiderman1/static/media/avengers.bb1305c0468d0a33ada1.jpg",
+    "static/media/guardians.jpg": "/spiderman1/static/media/guardians.d11ece1c3721710b48bc.jpg",
+    "static/media/logo.png": "/spiderman1/static/media/logo.ebba33b02ec8cefd4f3e.png",
+    "static/media/doctorStrange.jpg": "/spiderman1/static/media/doctorStrange.1f93faf3e7f7c89ea0f3.jpg",
+    "static/media/captainAmerica.jpg": "/spiderman1/static/media/captainAmerica.5bd4f42f9279d0c538be.jpg",
+    "static/media/ironman.jpg": "/spiderman1/static/media/ironman.b555f34123a23746f22c.jpg",
+    "index.html": "/spiderman1/index.html",
+    "main.7081c1b5.css.map": "/spiderman1/static/css/main.7081c1b5.css.map",
+    "main.7c56d731.js.map": "/spiderman1/static/js/main.7c56d731.js.map",
+    "787.e0183a5c.chunk.js.map": "/spiderman1/static/js/787.e0183a5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7081c1b5.css",
+    "static/js/main.7c56d731.js"
+  ]
+}
