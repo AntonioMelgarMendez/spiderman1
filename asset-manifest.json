@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spiderman1/static/css/main.8aff0cd1.css",
-    "main.js": "/spiderman1/static/js/main.e06c36e5.js",
+    "main.css": "/spiderman1/static/css/main.7c9d4aa0.css",
+    "main.js": "/spiderman1/static/js/main.234d468a.js",
     "static/js/787.e0183a5c.chunk.js": "/spiderman1/static/js/787.e0183a5c.chunk.js",
     "static/media/spidermanimg.png": "/spiderman1/static/media/spidermanimg.9495f02d8d488333df11.png",
     "static/media/suit2.jpg": "/spiderman1/static/media/suit2.99426ddb1f9391445146.jpg",
@@ -42,12 +42,12 @@
     "static/media/slick.ttf": "/spiderman1/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/spiderman1/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/spiderman1/index.html",
-    "main.8aff0cd1.css.map": "/spiderman1/static/css/main.8aff0cd1.css.map",
-    "main.e06c36e5.js.map": "/spiderman1/static/js/main.e06c36e5.js.map",
+    "main.7c9d4aa0.css.map": "/spiderman1/static/css/main.7c9d4aa0.css.map",
+    "main.234d468a.js.map": "/spiderman1/static/js/main.234d468a.js.map",
     "787.e0183a5c.chunk.js.map": "/spiderman1/static/js/787.e0183a5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aff0cd1.css",
-    "static/js/main.e06c36e5.js"
+    "static/css/main.7c9d4aa0.css",
+    "static/js/main.234d468a.js"
   ]
 }
