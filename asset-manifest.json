@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/spiderman1/static/css/main.35e1c069.css",
-    "main.js": "/spiderman1/static/js/main.ed083a2a.js",
+    "main.css": "/spiderman1/static/css/main.8aff0cd1.css",
+    "main.js": "/spiderman1/static/js/main.e06c36e5.js",
     "static/js/787.e0183a5c.chunk.js": "/spiderman1/static/js/787.e0183a5c.chunk.js",
     "static/media/spidermanimg.png": "/spiderman1/static/media/spidermanimg.9495f02d8d488333df11.png",
+    "static/media/suit2.jpg": "/spiderman1/static/media/suit2.99426ddb1f9391445146.jpg",
     "static/media/team2.jpg": "/spiderman1/static/media/team2.d0a7f19a8b030a46959d.jpg",
     "static/media/verse.jpg": "/spiderman1/static/media/verse.e788242e4380e7ade2b9.jpg",
+    "static/media/pincers.jpg": "/spiderman1/static/media/pincers.438738f50ac2c959d9b0.jpg",
+    "static/media/fery.jpg": "/spiderman1/static/media/fery.501a256071d5f2ef4391.jpg",
+    "static/media/suit.jpg": "/spiderman1/static/media/suit.3dced7cdc5a413d653ec.jpg",
     "static/media/drax.jpg": "/spiderman1/static/media/drax.effb96d7c17ecf824063.jpg",
     "static/media/nebula.jpg": "/spiderman1/static/media/nebula.0d3d63d079500b69488a.jpg",
     "static/media/mantis.jpg": "/spiderman1/static/media/mantis.1e9f65db40464f62bef2.jpg",
@@ -13,13 +17,18 @@
     "static/media/hawk.jpg": "/spiderman1/static/media/hawk.4eb22779e3cb5a97460d.jpg",
     "static/media/sylvie.jpg": "/spiderman1/static/media/sylvie.34489caaf692d1dc7b2e.jpg",
     "static/media/warmachine.jpg": "/spiderman1/static/media/warmachine.abd2be1e901f06f00644.jpg",
+    "static/media/webshoot.jpg": "/spiderman1/static/media/webshoot.8780f9e1c4277eb0f6c3.jpg",
+    "static/media/holland.jpg": "/spiderman1/static/media/holland.f49244f01137cb603454.jpg",
     "static/media/barel.jpg": "/spiderman1/static/media/barel.4e773a54305259bc0166.jpg",
     "static/media/liga.jpg": "/spiderman1/static/media/liga.6dab58bc475ebe5aa081.jpg",
     "static/media/vision.jpg": "/spiderman1/static/media/vision.bb1aa188ee6c6ea27d23.jpg",
+    "static/media/titl1.jpg": "/spiderman1/static/media/titl1.2f42d2b01bee28c79b0f.jpg",
+    "static/media/agility.jpg": "/spiderman1/static/media/agility.ae7ea784358fc9352e71.jpg",
     "static/media/vulture.jpg": "/spiderman1/static/media/vulture.98a9a3631e6f3e1e6a56.jpg",
     "static/media/blackwidow.jpg": "/spiderman1/static/media/blackwidow.5d7949beb2367a996128.jpg",
     "static/media/avengers.jpg": "/spiderman1/static/media/avengers.bb1305c0468d0a33ada1.jpg",
     "static/media/guardians.jpg": "/spiderman1/static/media/guardians.d11ece1c3721710b48bc.jpg",
+    "static/media/thanosfight.jpg": "/spiderman1/static/media/thanosfight.c1ffcc48d53ef3593b4e.jpg",
     "static/media/logo.png": "/spiderman1/static/media/logo.ebba33b02ec8cefd4f3e.png",
     "static/media/ebonymaw.jpg": "/spiderman1/static/media/ebonymaw.b05d4db0373c0ee0631e.jpg",
     "static/media/doctorStrange.jpg": "/spiderman1/static/media/doctorStrange.1f93faf3e7f7c89ea0f3.jpg",
@@ -33,12 +42,12 @@
     "static/media/slick.ttf": "/spiderman1/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/spiderman1/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/spiderman1/index.html",
-    "main.35e1c069.css.map": "/spiderman1/static/css/main.35e1c069.css.map",
-    "main.ed083a2a.js.map": "/spiderman1/static/js/main.ed083a2a.js.map",
+    "main.8aff0cd1.css.map": "/spiderman1/static/css/main.8aff0cd1.css.map",
+    "main.e06c36e5.js.map": "/spiderman1/static/js/main.e06c36e5.js.map",
     "787.e0183a5c.chunk.js.map": "/spiderman1/static/js/787.e0183a5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e1c069.css",
-    "static/js/main.ed083a2a.js"
+    "static/css/main.8aff0cd1.css",
+    "static/js/main.e06c36e5.js"
   ]
 }
