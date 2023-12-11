@@ -1,12 +1,19 @@
 {
   "files": {
-    "main.css": "/spiderman1/static/css/main.7c9d4aa0.css",
-    "main.js": "/spiderman1/static/js/main.234d468a.js",
+    "main.css": "/spiderman1/static/css/main.29d62487.css",
+    "main.js": "/spiderman1/static/js/main.c352eb5c.js",
+    "static/css/986.31d6cfe0.chunk.css": "/spiderman1/static/css/986.31d6cfe0.chunk.css",
+    "static/js/986.cc677f18.chunk.js": "/spiderman1/static/js/986.cc677f18.chunk.js",
+    "static/css/822.ccc4b780.chunk.css": "/spiderman1/static/css/822.ccc4b780.chunk.css",
+    "static/js/822.a3ed6433.chunk.js": "/spiderman1/static/js/822.a3ed6433.chunk.js",
     "static/js/787.e0183a5c.chunk.js": "/spiderman1/static/js/787.e0183a5c.chunk.js",
     "static/media/spidermanimg.png": "/spiderman1/static/media/spidermanimg.9495f02d8d488333df11.png",
+    "static/media/nohome.jpg": "/spiderman1/static/media/nohome.9709ea87413ab7b7d4ac.jpg",
     "static/media/suit2.jpg": "/spiderman1/static/media/suit2.99426ddb1f9391445146.jpg",
     "static/media/team2.jpg": "/spiderman1/static/media/team2.d0a7f19a8b030a46959d.jpg",
+    "static/media/endgame.jpeg": "/spiderman1/static/media/endgame.faa8764ba5729253991c.jpeg",
     "static/media/verse.jpg": "/spiderman1/static/media/verse.e788242e4380e7ade2b9.jpg",
+    "static/media/spiderverso.jpg": "/spiderman1/static/media/spiderverso.c49165ec2b9ca9949743.jpg",
     "static/media/pincers.jpg": "/spiderman1/static/media/pincers.438738f50ac2c959d9b0.jpg",
     "static/media/fery.jpg": "/spiderman1/static/media/fery.501a256071d5f2ef4391.jpg",
     "static/media/suit.jpg": "/spiderman1/static/media/suit.3dced7cdc5a413d653ec.jpg",
@@ -20,12 +27,15 @@
     "static/media/webshoot.jpg": "/spiderman1/static/media/webshoot.8780f9e1c4277eb0f6c3.jpg",
     "static/media/holland.jpg": "/spiderman1/static/media/holland.f49244f01137cb603454.jpg",
     "static/media/barel.jpg": "/spiderman1/static/media/barel.4e773a54305259bc0166.jpg",
+    "static/media/infinitywar.jpg": "/spiderman1/static/media/infinitywar.d968a10450462fbed5e3.jpg",
     "static/media/liga.jpg": "/spiderman1/static/media/liga.6dab58bc475ebe5aa081.jpg",
     "static/media/vision.jpg": "/spiderman1/static/media/vision.bb1aa188ee6c6ea27d23.jpg",
     "static/media/titl1.jpg": "/spiderman1/static/media/titl1.2f42d2b01bee28c79b0f.jpg",
     "static/media/agility.jpg": "/spiderman1/static/media/agility.ae7ea784358fc9352e71.jpg",
+    "static/media/civilwar.jpg": "/spiderman1/static/media/civilwar.57b30e9065278fd4bf58.jpg",
     "static/media/vulture.jpg": "/spiderman1/static/media/vulture.98a9a3631e6f3e1e6a56.jpg",
     "static/media/blackwidow.jpg": "/spiderman1/static/media/blackwidow.5d7949beb2367a996128.jpg",
+    "static/media/homecoming.jpg": "/spiderman1/static/media/homecoming.bb039550e1cbbd133351.jpg",
     "static/media/avengers.jpg": "/spiderman1/static/media/avengers.bb1305c0468d0a33ada1.jpg",
     "static/media/guardians.jpg": "/spiderman1/static/media/guardians.d11ece1c3721710b48bc.jpg",
     "static/media/thanosfight.jpg": "/spiderman1/static/media/thanosfight.c1ffcc48d53ef3593b4e.jpg",
@@ -42,12 +52,15 @@
     "static/media/slick.ttf": "/spiderman1/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/spiderman1/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/spiderman1/index.html",
-    "main.7c9d4aa0.css.map": "/spiderman1/static/css/main.7c9d4aa0.css.map",
-    "main.234d468a.js.map": "/spiderman1/static/js/main.234d468a.js.map",
+    "main.29d62487.css.map": "/spiderman1/static/css/main.29d62487.css.map",
+    "main.c352eb5c.js.map": "/spiderman1/static/js/main.c352eb5c.js.map",
+    "986.cc677f18.chunk.js.map": "/spiderman1/static/js/986.cc677f18.chunk.js.map",
+    "822.ccc4b780.chunk.css.map": "/spiderman1/static/css/822.ccc4b780.chunk.css.map",
+    "822.a3ed6433.chunk.js.map": "/spiderman1/static/js/822.a3ed6433.chunk.js.map",
     "787.e0183a5c.chunk.js.map": "/spiderman1/static/js/787.e0183a5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c9d4aa0.css",
-    "static/js/main.234d468a.js"
+    "static/css/main.29d62487.css",
+    "static/js/main.c352eb5c.js"
   ]
 }
