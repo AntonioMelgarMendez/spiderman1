@@ -7,7 +7,9 @@ import TriangleComponent from './components/triangle';
 import Abilities from './components/abilites';
 import Sliderdefault from './components/sliderdefault'; 
 import SliderMovie from './components/sliderMovie'; 
-import CardGeneric from './components/cardgeneric';// Importa el componente para pantallas pequeñas
+import CardGeneric from './components/cardgeneric';
+import Titletext from "./components/titletext";
+import Footer from './components/footer';// Importa el componente para pantallas pequeñas
 import image from './sources/spidermanimg.png';
 import image1 from './sources/ironman.jpg';
 import image2 from './sources/captainAmerica.jpg';
@@ -50,7 +52,7 @@ import movie5 from "./sources/endgame.jpeg"
 import movie6 from "./sources/spiderverso.jpg"
 
 import '../src/App.css';
-import Slider from 'react-slick';
+
 const cardSets = {
   set1: [
     { imageSrc: image1, title: 'IRON MAN', text: 'TONY STARK' },
@@ -181,6 +183,12 @@ function App() {
         <SliderMovie cards={contentMap["set3"]}  />
       ) : (
         <div className='wrath'>
+                  <CardGeneric  image={movie5}
+        title="Avengers: End Game"
+        releaseDate="2019"/>
+                     <CardGeneric  image={movie4}
+          title="No Way Home"
+          releaseDate="2021"/>
         <CardGeneric  image={movie1}
           title="Avengers: Infinity War"
           releaseDate="2018"/>
@@ -190,9 +198,11 @@ function App() {
                 <CardGeneric  image={movie3}
           title="Captain America: Civil War"
           releaseDate="2016"/>
+
        </div>
       )}
-
+      <Titletext/>
+      <Footer/>
 
     </div>
     

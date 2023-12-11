@@ -1,0 +1,68 @@
+/* footer.css */
+.simple-footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto Bold', Trebuchet MS, Helvetica, Arial, sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Añadido: permite que los elementos se envuelvan en pantallas pequeñas */
+  }
+  
+  .logo-column {
+    text-align: left;
+    margin-bottom: 10px; /* Añadido: espacio entre el logo y el contenido en pantallas pequeñas */
+  }
+  
+  .logo-column img {
+    max-width: 100px; /* Ajusta el ancho según sea necesario */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Añadido: transición en el hover */
+  }
+  
+  .logo-column img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .content-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Añadido: centrar el contenido en pantallas pequeñas */
+    margin-left: 20px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .links-column h2 {
+    margin-bottom: 10px;
+  }
+  
+  .links-column h2:hover {
+    cursor: pointer;
+  }
+  
+  .social-column {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .social-column a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 0 10px; /* Ajusta el margen según sea necesario */
+  }
+  
+  .social-column a:hover {
+    color: #000000;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+  }
+  
