@@ -50,7 +50,7 @@
 }
 
 /* Media query para ajustar el tamaño del texto en pantallas más pequeñas */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 300) {
   .titleweb {
     font-size: 18px; /* Tamaño de fuente fijo para pantallas pequeñas */
   }
@@ -86,12 +86,19 @@ border-radius: 20px;
 }
 .titulohead{
 
-  font-size: 40px;
+  font-size: 30px;
   font-family:Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
   margin-bottom: 0%;
-  text-align: center;
+  text-align: left;
   margin: auto;
+  padding-left: 10px;
   color:#151515;
   padding-top: 5vw;
 
+}
+.wrath {
+  display: flex;
+  justify-content:left; /* Esto distribuirá las tarjetas horizontalmente */
+  margin: 0px;
+  margin-top: 20px; /* O ajusta el margen según sea necesario */
 }

@@ -5,7 +5,9 @@ import Note from './components/spidermannote';
 import Carousel from './components/carrusel';
 import TriangleComponent from './components/triangle';
 import Abilities from './components/abilites';
-import Sliderdefault from './components/sliderdefault'; // Importa el componente para pantallas pequeñas
+import Sliderdefault from './components/sliderdefault'; 
+import SliderMovie from './components/sliderMovie'; 
+import CardGeneric from './components/cardgeneric';// Importa el componente para pantallas pequeñas
 import image from './sources/spidermanimg.png';
 import image1 from './sources/ironman.jpg';
 import image2 from './sources/captainAmerica.jpg';
@@ -40,9 +42,15 @@ import img6 from "./sources/agility.jpg";
 import img7 from "./sources/holland.jpg";
 import img8 from "./sources/webshoot.jpg";
 import img9 from "./sources/pincers.jpg";
-
+import movie1 from "./sources/infinitywar.jpg"
+import movie2 from "./sources/homecoming.jpg"
+import movie3 from "./sources/civilwar.jpg"
+import movie4 from "./sources/nohome.jpg"
+import movie5 from "./sources/endgame.jpeg"
+import movie6 from "./sources/spiderverso.jpg"
 
 import '../src/App.css';
+import Slider from 'react-slick';
 const cardSets = {
   set1: [
     { imageSrc: image1, title: 'IRON MAN', text: 'TONY STARK' },
@@ -90,7 +98,9 @@ const contentMap = {
     { title:"Web Shooters", text: 'Peter Parker’s own invention, which were then upgraded by Tony Stark, Spider-Man’s web-shooters can be used as weapons, a means to travel the city, and much more.', image: img8 },
     {title:"Pincers",  text: 'Even more advanced than the first costume Tony Stark gave him, Peter’s armored suit includes pincers that can be used to help root Spider-Man in place.', image: img9 },
   
-  ]
+  ],
+  set3:[{image:movie6,title:"Across The Spiderverse",releaseDate:"2023"},{image:movie4,title:"No Way Home",releaseDate:"2021"},{image:movie5,title:"Avengers: End Game ",releaseDate:"2019"},{image:movie1,title:"Avengers: Infinity War",releaseDate:"2018"},{image:movie2,title:"Spider-Man: Homecoming",releaseDate:"2017"},{image:movie3,title:"Captain America: Civil War",releaseDate:"2016"}]
+
 };
 
 function App() {
@@ -129,7 +139,7 @@ function App() {
       />
       {/* Renderiza el componente correspondiente según el tamaño de la pantalla */}
       {isSmallScreen ? (
-        <Sliderdefault cards={contentMap["set1"]}  />
+        <Sliderdefault cards={contentMap["set1"]} style={"card1"}  />
       ) : (
         <TriangleComponent />
       )}
@@ -160,12 +170,32 @@ function App() {
       <Carousel cards={cardSets[selectedSet]} />
       <div className='third'></div>
       {isSmallScreen ? (
-        <Sliderdefault cards={contentMap["set2"]}  />
+        <Sliderdefault cards={contentMap["set2"]} style={"card1"}  />
       ) : (
         <Abilities/>
       )}
+            <div className='titulohead'>
+            RELATED MOVIES
+      </div>
+      {isSmallScreen ? (
+        <SliderMovie cards={contentMap["set3"]}  />
+      ) : (
+        <div className='wrath'>
+        <CardGeneric  image={movie1}
+          title="Avengers: Infinity War"
+          releaseDate="2018"/>
+                <CardGeneric  image={movie2}
+          title="Spider-Man: Homecoming"
+          releaseDate="2017"/>
+                <CardGeneric  image={movie3}
+          title="Captain America: Civil War"
+          releaseDate="2016"/>
+       </div>
+      )}
+
 
     </div>
+    
   );
 }
 
