@@ -5,7 +5,9 @@
 .App {
   text-align: center;
 }
-
+.third{
+  margin-top: 5vw;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -87,6 +89,6 @@ border-radius: 20px;
   text-align: center;
   margin: auto;
   color:#151515;
-  padding-top: 10vw;
+  padding-top: 5vw;
 
 }

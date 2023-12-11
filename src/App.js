@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import Navbar from './components/navbar';
 import Note from './components/spidermannote';
 import Carousel from './components/carrusel';
+import TriangleComponent from './components/triangle';
+import Abilities from './components/abilites';
 import image from './sources/spidermanimg.png';
 import image1 from './sources/ironman.jpg';
 import image2 from './sources/captainAmerica.jpg';
@@ -80,9 +82,11 @@ function App() {
         paragraph="With amazing spider-like abilities, teenage science whiz Peter Parker fights crime and dreams of becoming an Avenger as Spider-Man."
         buttonText="READ BIO"
       />
+      <TriangleComponent/>
       <div className='titulohead'>
        CONNECTS
       </div>
+
       <div className="button-container">
         <button
           className={selectedSet === 'set1' ? 'selected' : ''}
@@ -104,6 +108,8 @@ function App() {
         </button>
       </div>
       <Carousel cards={cardSets[selectedSet]} />
+      <div className='third'></div>
+      <Abilities/>
     </div>
   );
 }

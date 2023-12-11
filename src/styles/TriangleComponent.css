@@ -1,0 +1,133 @@
+/* TriangleComponent.css */
+
+/* Estilos base para el contenedor principal */
+.triangle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para el contenedor global */
+  .containerglobal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #151515;
+  }
+  
+  /* Estilos para el contenedor de texto */
+  .text-container {
+    background: #151515;
+    color: white;
+    width: 100%;
+  }
+  
+  /* Estilos para el título */
+  .text-container h2 {
+    text-transform: uppercase;
+    font-family: 'RobotoCondensed Bold', Trebuchet MS, Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 54px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  .image-container {
+    width: 100%;
+    max-width: 1700px; /* Establece un ancho máximo para la imagen */
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  /* Estilos para la imagen dentro del contenedor */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+  }
+  
+  /* Estilos para el contenedor de texto adicional */
+  .text-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para el párrafo dentro del contenedor de texto */
+  .text-container p {
+    font-size: 16px;
+    color: white;
+    font-family: 'RobotoCondensed Bold', Trebuchet MS, Helvetica, Arial, sans-serif;
+  }
+  
+  /* Estilos para el contenedor de botones */
+  .botonconta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    background-color:white;/* Hace que los botones se envuelvan en pantallas más pequeñas */
+  }
+  
+  /* Añade esto a tu CSS existente */
+.button1 {
+  position: relative;
+  background-color: transparent; /* Hacer el fondo transparente */
+  border: none; /* Eliminar el borde */
+  padding: 10px; /* Ajustar el relleno según sea necesario */
+  cursor: pointer;
+}
+
+.button1::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color:#e62429;
+  top: 0;
+  left: 0;
+  display: block;
+  opacity: 0; /* Para que inicialmente esté oculta */
+  transition: opacity 0.3s ease;
+}
+
+.button1:hover::before,
+.button1.selected::before {
+  opacity: 1; /* Mostrar la línea cuando el botón está seleccionado o al pasar el ratón sobre él */
+}
+
+  /* Media queries para ajustar estilos según el ancho de la pantalla */
+  @media screen and (max-width: 768px) {
+    /* Ajustes para pantallas más pequeñas */
+    .text-container h2 {
+      font-size: 20px;
+    }
+    .image-container {
+        width: 100%;
+        max-width: 1700px; /* Establece un ancho máximo para la imagen */
+        height: 150px;
+        text-align: center;
+        overflow: hidden;
+      }
+    .text-container p {
+      font-size: 10px;
+    }
+    .button1 {
+      
+        padding: 10px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    
+  }
+  .indicator-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: calc(100% / 5);
+    background-color: red;
+    transition: left 0.3s ease;
+  } 
