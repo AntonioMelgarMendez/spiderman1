@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spiderman1/static/css/main.29d62487.css",
-    "main.js": "/spiderman1/static/js/main.c352eb5c.js",
+    "main.css": "/spiderman1/static/css/main.ecb6acf7.css",
+    "main.js": "/spiderman1/static/js/main.d82803ed.js",
     "static/css/986.31d6cfe0.chunk.css": "/spiderman1/static/css/986.31d6cfe0.chunk.css",
     "static/js/986.cc677f18.chunk.js": "/spiderman1/static/js/986.cc677f18.chunk.js",
     "static/css/822.ccc4b780.chunk.css": "/spiderman1/static/css/822.ccc4b780.chunk.css",
@@ -52,15 +52,15 @@
     "static/media/slick.ttf": "/spiderman1/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/spiderman1/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/spiderman1/index.html",
-    "main.29d62487.css.map": "/spiderman1/static/css/main.29d62487.css.map",
-    "main.c352eb5c.js.map": "/spiderman1/static/js/main.c352eb5c.js.map",
+    "main.ecb6acf7.css.map": "/spiderman1/static/css/main.ecb6acf7.css.map",
+    "main.d82803ed.js.map": "/spiderman1/static/js/main.d82803ed.js.map",
     "986.cc677f18.chunk.js.map": "/spiderman1/static/js/986.cc677f18.chunk.js.map",
     "822.ccc4b780.chunk.css.map": "/spiderman1/static/css/822.ccc4b780.chunk.css.map",
     "822.a3ed6433.chunk.js.map": "/spiderman1/static/js/822.a3ed6433.chunk.js.map",
     "787.e0183a5c.chunk.js.map": "/spiderman1/static/js/787.e0183a5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29d62487.css",
-    "static/js/main.c352eb5c.js"
+    "static/css/main.ecb6acf7.css",
+    "static/js/main.d82803ed.js"
   ]
 }
