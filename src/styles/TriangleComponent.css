@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+ 
   }
   
   /* Estilos para el contenedor global */
@@ -13,6 +14,7 @@
     flex-direction: row;
     align-items: center;
     background: #151515;
+   height: 600px;
   }
   
   /* Estilos para el contenedor de texto */
@@ -34,8 +36,8 @@
   /* Estilos para el contenedor de la imagen */
   .image-container {
     width: 100%;
-    max-width: 1700px; /* Establece un ancho máximo para la imagen */
-    height: auto;
+ /* Establece un ancho máximo para la imagen */
+    height: 600px;
     text-align: center;
     overflow: hidden;
   }

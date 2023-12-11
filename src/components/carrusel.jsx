@@ -1,48 +1,53 @@
 // Carousel.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 import Card from './cards';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../styles/Carousel.css';// Asegúrate de tener estilos para el carrusel
+import '../styles/Carousel.css';
 
 const Carousel = ({ cards }) => {
+  const [slidesToShow, setSlidesToShow] = useState(calculateSlidesToShow());
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSlidesToShow(calculateSlidesToShow());
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  function calculateSlidesToShow() {
+    const screenWidth = window.innerWidth;
+    if (screenWidth >= 700) {
+      return 5;
+    }
+    else if (screenWidth >= 600) {
+      return 4;
+    } else if (screenWidth >= 480) {
+      return 3;
+    } else{
+      return 2;
+    } 
+
+  }
+
   const settings = {
-    dots: false, // Oculta los puntos indicadores
+    dots: false,
     arrows: false,
     infinite: true,
     speed: 800,
-    slidesToShow: 5, // Muestra 3 imágenes por defecto
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 600, // Ajusta este valor según tus necesidades
+        breakpoint: 600,
         settings: {
-          slidesToShow: 2, // Muestra 2 imágenes en pantallas más pequeñas
-        },
-      },
-      {
-        breakpoint: 480, // Ajusta este valor según tus necesidades
-        settings: {
-          slidesToShow: 2, // Muestra 1 imagen en pantallas aún más pequeñas
-        },
-      },
-      {
-        breakpoint: 450, // Ajusta este valor según tus necesidades
-        settings: {
-          slidesToShow: 1.8, // Muestra 1 imagen en pantallas aún más pequeñas
-        },
-      },
-      {
-        breakpoint: 410, // Ajusta este valor según tus necesidades
-        settings: {
-          slidesToShow: 1.7, // Muestra 1 imagen en pantallas aún más pequeñas
-        },
-      },
-      {
-        breakpoint: 400, // Ajusta este valor según tus necesidades
-        settings: {
-          slidesToShow:1.6, // Muestra 1 imagen en pantallas aún más pequeñas
+          slidesToShow: slidesToShow,
         },
       },
     ],
